@@ -1,0 +1,18 @@
+Source: libdisplaycore-driver-ili9342
+Section: libraries
+Priority: extra
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: libdisplaycore-driver-ili9342
+Section: libraries
+Architecture: all
+XBSC-Group: DisplayCore
+XBSC-Subgroup: Drivers
+Depends: libdisplaycore-core, libdspi-chipkit
+Provides: ILI9342.h
+Description: ILI9342 library for DisplayCore
+
+
+
