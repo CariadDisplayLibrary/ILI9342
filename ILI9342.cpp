@@ -248,7 +248,7 @@ void ILI9342::setRotation(int m) {
 	}
 }
 
-void ILI9342::invertDisplay(boolean i) {
+void ILI9342::invertDisplay(bool i) {
 	command(i ? ILI9342_INVERTON : ILI9342_INVERTOFF);
 }
 
