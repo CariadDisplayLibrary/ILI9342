@@ -6,10 +6,10 @@ Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
 Package: libdisplaycore-driver-ili9342
-Section: main
 Architecture: all
 XBSC-Group: DisplayCore
 XBSC-Subgroup: Drivers
+XBSC-Subsubgroup: TFT
 Depends: libdisplaycore-core, libdspi-chipkit
 Provides: ILI9342.h
 Description: ILI9342
