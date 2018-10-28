@@ -12,7 +12,7 @@ XBSC-Group: DisplayCore
 XBSC-Subgroup: Drivers
 Depends: libdisplaycore-core, libdspi-chipkit
 Provides: ILI9342.h
-Description: ILI9342 library for DisplayCore
+Description: ILI9342
 
 
 
