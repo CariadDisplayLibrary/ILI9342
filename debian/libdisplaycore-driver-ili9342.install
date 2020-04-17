@@ -1,2 +1,3 @@
-ILI9342.cpp libraries/DisplayCore/ILI9342
-ILI9342.h libraries/DisplayCore/ILI9342
+library.json libraries/DisplayCore/ILI9342
+library.properties libraries/DisplayCore/ILI9342
+src libraries/DisplayCore/ILI9342
