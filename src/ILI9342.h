@@ -1,14 +1,14 @@
 #ifndef _ILI9342_H
 #define _ILI9342_H
 
-#include <DisplayCore.h>
+#include <Cariad.h>
 #include <DSPI.h>
 
 #ifdef __PIC32MZ__
 #define _PMP_IRQ _PMP_VECTOR
 #endif
 
-class ILI9342 : public DisplayCore {
+class ILI9342 : public Cariad {
     protected:
 
         const uint8_t ILI9342_SOFTRESET        = 0x01;
